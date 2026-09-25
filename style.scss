@@ -1,0 +1,8 @@
+// Import Bootstrap's Sass helpers and variables; its CSS is loaded in index.html.
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+
+// Use Sass variables directly (without CSS var()).
+.text-purple-500 {
+	color: $purple-500;
+}

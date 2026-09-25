@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="style.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+	<title>Bootstrap</title>
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-lg bg-body-tertiary">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#">Bootstrap Lesson</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+				aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="#">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Notes</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<main>
+		<div class="card" style="width: 18rem;">
+			<img src="..." class="card-img-top" alt="...">
+			<div class="card-body">
+				<h5 class="card-title">Card title</h5>
+				<p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+					card’s content.</p>
+				<a href="#" class="btn btn-warning">Go somewhere</a>
+			</div>
+		</div>
+
+		<div class="section">
+			<!-- property + side + size -->
+			<div class="mt-5 ms-3">margin-top</div>
+			<div class="p-4">Pading example</div>
+
+			<!-- property + value OR functionality -->
+			<div class="text-primary text-uppercase">Primary</div>
+			<div class="text-secondary">Secondary</div>
+			<div class="text-purple-500 bg-light">background color</div>
+			<div class="d-none">This needs to be hidden</div>
+
+			<div class="d-flex gap-3 justify-content-center">
+				<div class="border border-dark-subtle w-50">Content</div>
+				<div class="border border-dark-subtle">Content</div>
+				<div class="border border-dark-subtle">Content</div>
+			</div>
+			<div class="w-100 d-flex justify-content-center">
+
+				<form class="row g-3 w-75">
+					<div class="col-md-6">
+						<label for="inputEmail4" class="form-label">Email</label>
+						<input type="email" class="form-control" id="inputEmail4">
+					</div>
+					<div class="col-md-6">
+						<label for="inputPassword4" class="form-label">Password</label>
+						<input type="password" class="form-control" id="inputPassword4">
+					</div>
+					<div class="col-12">
+						<label for="inputAddress" class="form-label">Address</label>
+						<input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+					</div>
+					<div class="col-12">
+						<label for="inputAddress2" class="form-label">Address 2</label>
+						<input type="text" class="form-control" id="inputAddress2"
+							placeholder="Apartment, studio, or floor">
+					</div>
+					<div class="col-md-6">
+						<label for="inputCity" class="form-label">City</label>
+						<input type="text" class="form-control" id="inputCity">
+					</div>
+					<div class="col-md-4">
+						<label for="inputState" class="form-label">State</label>
+						<select id="inputState" class="form-select">
+							<option selected>Choose...</option>
+							<option>...</option>
+						</select>
+					</div>
+					<div class="col-md-2">
+						<label for="inputZip" class="form-label">Zip</label>
+						<input type="text" class="form-control" id="inputZip">
+					</div>
+					<div class="col-12">
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" id="gridCheck">
+							<label class="form-check-label" for="gridCheck">
+								Check me out
+							</label>
+						</div>
+					</div>
+					<div class="col-12">
+						<button type="submit" class="btn btn-primary">Sign in</button>
+					</div>
+				</form>
+			</div>
+
+			<div class="w-50 d-sm-none">
+				<!-- ! d-sm-none seems to have a bug where it reverses its purpose -->
+				<img class="img-fluid" src="./assets/background.png" alt="">
+			</div>
+		</div>
+	</main>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+		integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+		integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+		crossorigin="anonymous"></script>
+</body>
+
+</html>
